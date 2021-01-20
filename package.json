@@ -1,5 +1,6 @@
 {
-  "name": "dev.finance",
+  "homepage": "https://died-ego.github.io/dev.finances/",
+  "name": "dev.finances",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
