@@ -1,0 +1,14 @@
+/*! Global  */:root{--color-subtitle:#363f5f;--color-table-title:#363f5f;--color-table-text:#969cb3;--color-total-card:#49aa26}*{-webkit-user-select:none;-ms-user-select:none;user-select:none;margin:0;padding:0;box-sizing:border-box}#page-home{background:#f0f2f5;font-family:"Poppins",sans-serif}.container{width:min(90vw,800px);margin:auto}
+
+/*! Titles  */h2{margin-top:3.2rem;margin-bottom:.8rem;color:#363f5f;color:var(--color-subtitle);font-weight:400}
+
+/*! Header  */#page-home header{background:#2d4a22;padding:2rem 0 10rem;text-align:center}#page-home header #logo{color:#fff;font-weight:100}
+
+/*! Balance  */#page-home .container #balance{margin-top:-8rem}#page-home .container #balance h2{margin-top:0;color:#fff}
+
+/*! Cards  */#page-home .container #balance .card{background:#fff;padding:1.5rem 2rem;border-radius:.25rem;margin-bottom:2rem;color:#363f5f;color:var(--color-subtitle)}#page-home .container #balance .card.total{background-color:#49aa26;background-color:var(--color-total-card);color:#fff}#page-home .container #balance .card h3{font-weight:400;font-size:1rem}#page-home .container #balance .card p{font-size:2rem;line-height:3rem;margin-top:.8rem}
+
+/*! Transactions Table  */#page-home .container #transaction #transactions-table{width:100%;border-spacing:0 .4rem}#page-home .container #transaction #transactions-table thead{color:#363f5f;color:var(--color-table-title)}#page-home .container #transaction #transactions-table th{background:#fff;font-weight:400;padding:1rem 2rem;text-align:left}#page-home .container #transaction #transactions-table tbody{color:#969cb3;color:var(--color-table-text)}#page-home .container #transaction #transactions-table tbody tr{opacity:.75}#page-home .container #transaction #transactions-table tbody tr:hover{opacity:1}#page-home .container #transaction #transactions-table td{background:#fff;padding:1rem 2rem}#page-home .container #transaction #transactions-table td.description{color:#363f5f;color:var(--color-table-title)}#page-home .container #transaction #transactions-table td.income{color:#12a454}#page-home .container #transaction #transactions-table td.expense{color:#e92929}#page-home .container #transaction #transactions-table tbody tr td:first-child,#page-home .container #transaction #transactions-table thead tr th:first-child{border-radius:.25rem 0 0 .25rem}
+
+/*! Footer  */footer{text-align:center;padding:4rem 0 2rem;opacity:.6}
+/*# sourceMappingURL=main.e646e8d5.chunk.css.map */
