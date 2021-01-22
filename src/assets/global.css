@@ -1,0 +1,66 @@
+:root {
+  --color-subtitle: #363f5f;
+  --color-table-title: #363f5f;
+  --color-table-text: #969cb3;
+  --color-total-card: #49aa26;
+  --color-button: #49aa26;
+  --color-button-light: #3dd705;
+  --color-modal-background: #f0f2f5;
+}
+
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+/*! Elementos apenas para leitura */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/*! Links & Buttons  */
+a {
+  color: var(--color-button);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #f0f2f5;
+  color: var(--color-button);
+  border: none;
+  font: 400 1rem Poppins;
+  outline-style: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--color-button-light);
+}
+
+.button.new {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  transition: all 0.4s;
+}
+
+/*! Responsividade */
+@media (min-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
