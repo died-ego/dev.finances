@@ -1,0 +1,38 @@
+.table-row td:first-child {
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.table-row td:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.table-row {
+  color: var(--color-table-text);
+  opacity: 0.75;
+}
+
+.table-row:hover {
+  opacity: 1;
+}
+
+.table-row td {
+  background: #fff;
+  padding: 1rem 2rem;
+}
+
+.table-row td:last-child img {
+  display: flex;
+  justify-content: center;
+}
+
+.table-row .description {
+  color: var(--color-table-title);
+}
+
+.table-row .income {
+  color: #12a454;
+}
+
+.table-row .expense {
+  color: #e92929;
+}

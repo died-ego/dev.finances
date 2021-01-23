@@ -6,11 +6,13 @@ import Logo from "../../assets/images/logo.svg";
 import Income from "../../assets/images/income.svg";
 import Expense from "../../assets/images/expense.svg";
 import Total from "../../assets/images/total.svg";
-import Remove from "../../assets/images/minus.svg";
+
+//* Componentes
+import Modal from "../../components/UI/Modal";
+import Card from "../../components/Card";
 
 //* Estilo local
 import "./styles.css";
-import Modal from "../../components/UI/Modal";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -69,32 +71,13 @@ const Home = () => {
               </thead>
 
               <tbody>
-                <tr>
-                  <td className="description">Luz</td>
-                  <td className="expense">- R$ 500,00</td>
-                  <td className="date">23/01/2021</td>
-                  <td>
-                    <img src={Remove} alt="Remover transação" />
-                  </td>
-                </tr>
+                <Card
+                  description="Sorvete na Praça"
+                  value={-15.0}
+                  date="23/01/2021"
+                />
 
-                <tr>
-                  <td className="description">Criação de Website</td>
-                  <td className="income">+ R$5.000,00</td>
-                  <td className="date">29/01/2021</td>
-                  <td>
-                    <img src={Remove} alt="Remover transação" />
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="description">Upgrade do PC</td>
-                  <td className="expense">- R$1.500,00</td>
-                  <td className="date">05/01/2021</td>
-                  <td>
-                    <img src={Remove} alt="Remover transação" />
-                  </td>
-                </tr>
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
               </tbody>
             </table>
           </section>

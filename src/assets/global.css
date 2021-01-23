@@ -6,6 +6,7 @@
   --color-button: #49aa26;
   --color-button-light: #3dd705;
   --color-modal-background: #f0f2f5;
+  --color-secondary-button: #e92929;
 }
 
 * {
@@ -37,25 +38,6 @@ a {
   color: var(--color-button);
   text-decoration: none;
   cursor: pointer;
-}
-
-button {
-  background-color: #f0f2f5;
-  color: var(--color-button);
-  border: none;
-  font: 400 1rem Poppins;
-  outline-style: none;
-  cursor: pointer;
-}
-
-button:hover {
-  color: var(--color-button-light);
-}
-
-.button.new {
-  display: inline-block;
-  margin-bottom: 0.8rem;
-  transition: all 0.4s;
 }
 
 /*! Responsividade */
