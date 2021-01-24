@@ -15,5 +15,5 @@
   position: relative;
   width: 85%;
   max-width: 500px;
-  font-family: Poppins;
+  font: 400 Poppins var(--color-font);
 }

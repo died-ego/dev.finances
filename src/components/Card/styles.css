@@ -7,7 +7,7 @@
 }
 
 .table-row {
-  color: var(--color-table-text);
+  color: var(--color-font);
   opacity: 0.75;
 }
 
@@ -26,13 +26,13 @@
 }
 
 .table-row .description {
-  color: var(--color-table-title);
+  color: var(--color-font);
 }
 
 .table-row .income {
-  color: #12a454;
+  color: var(--color-green);
 }
 
 .table-row .expense {
-  color: #e92929;
+  color: var(--color-red);
 }

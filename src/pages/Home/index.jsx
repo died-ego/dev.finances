@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 
 //* Imagens
-import Logo from "../../assets/images/logo.svg";
 import Income from "../../assets/images/income.svg";
 import Expense from "../../assets/images/expense.svg";
 import Total from "../../assets/images/total.svg";
@@ -21,7 +20,12 @@ const Home = () => {
     <>
       <div id="page-home">
         <header>
-          <img id="logo" src={Logo} alt="Logomarca Dev Fincances" />
+          <h1>
+            <span>dev</span>
+            <span className="alternative-text-1">.</span>
+            <span>finance</span>
+            <span className="alternative-text-2">$</span>
+          </h1>
         </header>
 
         <main className="container">
@@ -77,6 +81,13 @@ const Home = () => {
                   date="23/01/2021"
                 />
 
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
+                <Card description="Mesadinha" value={35} date="01/01/2021" />
                 <Card description="Mesadinha" value={35} date="01/01/2021" />
               </tbody>
             </table>
