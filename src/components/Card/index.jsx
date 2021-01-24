@@ -8,25 +8,25 @@ import Remove from "../../assets/images/minus.svg";
 import "./styles.css";
 
 export default function Card(props) {
-  if (props.value > 0) {
+  if (props.amount > 0) {
     return (
-      <tr className="table-row">
-        <td className="description">{props.description}</td>
-        <td className="income">+ R${props.value}</td>
-        <td className="date">{props.date}</td>
+      <tr className='table-row'>
+        <td className='description'>{props.description}</td>
+        <td className='income'>+ R${props.amount}</td>
+        <td className='date'>{props.date}</td>
         <td>
-          <img src={Remove} alt="Remover transação" />
+          <img src={Remove} alt='Remover transação' />
         </td>
       </tr>
     );
   } else {
     return (
-      <tr className="table-row">
-        <td className="description">{props.description}</td>
-        <td className="expense">- R${props.value * -1}</td>
-        <td className="date">{props.date}</td>
+      <tr className='table-row'>
+        <td className='description'>{props.description}</td>
+        <td className='expense'>- R${props.amount * -1}</td>
+        <td className='date'>{props.date}</td>
         <td>
-          <img src={Remove} alt="Remover transação" />
+          <img src={Remove} alt='Remover transação' />
         </td>
       </tr>
     );

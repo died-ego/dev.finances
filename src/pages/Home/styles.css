@@ -18,7 +18,7 @@ h2 {
 
 /*! Links & Buttons  */
 .button.new {
-  background-color: #f0f2f5;
+  background-color: var(--color-background);
   color: var(--color-green);
   border: none;
   font: 400 1rem Poppins;
